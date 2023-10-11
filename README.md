@@ -23,3 +23,4 @@ library(phd)
 chairmen_24Q1 <- make_chairmen(tytgat_aio)
 ```
 
+You can also try out the PhD_life() function for a nice "useful" break ;)
