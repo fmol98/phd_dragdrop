@@ -1,0 +1,24 @@
+---
+title: "vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(phd)
+```
+
+Make duos to chair the Thursday morning meetings for the first quarter of 2024
+```{r chairmen}
+chairmen_Q124 <- make_chairmen(tytgat_aio)
+```
