@@ -60,15 +60,15 @@ PhD_life <- function(){
   choice <- readline()
   if(tolower(choice) == "yes"){
     cat("Splendid! Here you go")
-    meme_yes <- image_read(file.path(data_dir, "meme_yes.png"))
+    meme_yes <- magick::image_read(file.path(data_dir, "meme_yes.png"))
     print(meme_yes)
   }
   else if(tolower(choice) == "no"){
     cat("Too bad, enjoy your memeless PhD life then... SIKE here is a meme anyways")
-    meme_no <- image_read(file.path(data_dir, "meme_no.png"))
+    meme_no <- magick::image_read(file.path(data_dir, "meme_no.png"))
     print(meme_no)
   }
   else("You actually need to give me a yes or no answer, I can't handle too many options you know.. Anyways, here is a meme!")
-  meme_else <- image_read("meme_else.jpg")
+  meme_else <- magick::image_read("meme_else.jpg")
   print(meme_else)
 }
