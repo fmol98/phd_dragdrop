@@ -28,8 +28,6 @@ make_chairmen <- function(names){
   return(couple_names)
 }
 
-tytgat_aio <- c("Annemijn", "Yannick", "Ivan", "Femke", "Dalia", "Sofia", "Rosalia", "Anh", "Dandan", "Yue", "Claire", "Frank")
-
 #' Fun function for PhDs!
 #'
 #' Have a break from the serious coding and use this function to cheer yourself up with a meme.
