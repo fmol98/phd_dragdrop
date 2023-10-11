@@ -11,7 +11,7 @@ The goal of phd is to contain useful functions for the PhD life within the Tytga
 You can install the development version of phd like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+devtools::install_github("fmol98/phd_dragdrop", build_vignettes = TRUE)
 ```
 
 ## Example
